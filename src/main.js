@@ -1,6 +1,12 @@
 import { Hero } from "./components/Hero";
+import { WhyUs } from "./components/main/WhyUs/index";
+import { Materials } from "./components/main/Materials/index.js";
+import { About } from "./components/main/About/index.js";
 import "./style.css";
 
 document.querySelector("#root").innerHTML = `
     ${Hero()}
+    ${WhyUs()}
+    ${Materials()}
+    ${About()}
 `;

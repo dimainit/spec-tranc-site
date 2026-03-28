@@ -1,0 +1,55 @@
+.about_us {
+    max-width: 1420px;
+    margin: 80px auto 0;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 160px;
+    
+}
+
+.about_title {
+    font-family: Rubik;
+    margin: 80px 0 60px 0;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.about_subtitle {
+    font-family: Rubik;
+    width: 580px;
+}
+
+.about_stats {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 120px 90px;
+    border-radius: 24px;
+}
+
+.stat_blocks {
+    display: flex;
+    gap: 150px;
+}
+
+.stat {
+    position: relative;
+    text-align: center;
+}
+
+.stat_num {
+    font-size: 88px;
+    font-family: Rubik;
+    font-weight: 300;
+    padding-bottom: 18px;
+}
+
+.stat_plus {
+    position: absolute;
+    font-size: 40px;
+    color: #27AE60;
+    font-weight: 500;
+    bottom: 100px;
+    left: 130px;
+}

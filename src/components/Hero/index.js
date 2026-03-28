@@ -1,2 +1,2 @@
-export { Hero } from "./Hero"
+export { Hero } from "./Hero.js"
 import "./Hero.scss"

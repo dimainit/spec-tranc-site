@@ -1,2 +1,2 @@
-export { WhyUs } from "./WhyUs.scss"
-import "./WhyUs.scss"
+import "./WhyUs.scss"; 
+export { WhyUs } from "./WhyUs.js"; 
