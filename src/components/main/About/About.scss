@@ -1,24 +1,23 @@
+@import "../../../base/mixins";
+
 .about_us {
-    max-width: 1420px;
-    margin: 80px auto 0;
-    padding-bottom: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 160px;
-    
+    width: 100%;
+}
+
+.about_container {
+    @include section_layout; // сюда переноси миксин
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .about_title {
-    font-family: Rubik;
-    margin: 80px 0 60px 0;
-    font-size: 42px;
-    font-weight: 500;
+    @include title_standart
 }
 
 .about_subtitle {
     font-family: Rubik;
     width: 580px;
+    color: #67675F;
 }
 
 .about_stats {
@@ -43,6 +42,10 @@
     font-family: Rubik;
     font-weight: 300;
     padding-bottom: 18px;
+}
+
+.stat_subtitle {
+    color:#67675F
 }
 
 .stat_plus {
