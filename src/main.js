@@ -5,6 +5,7 @@ import { About } from "./components/main/About/index.js";
 import "./style.css";
 import { Questions, initForm } from "./components/main/Questions/index.js";
 import { btnMapLink, Delivery } from "./components/main/Delivery/Delivery.js";
+import { Footer, iconSocialNetworks } from "./components/Footer/Footer.js";
 
 
 document.querySelector("#root").innerHTML = `
@@ -14,9 +15,11 @@ document.querySelector("#root").innerHTML = `
     ${About()}
     ${Questions()}
     ${Delivery()}
+    ${Footer()}
     `;
 btnMapLink()
 initForm()
+iconSocialNetworks()
 
 const btnHeader = document.querySelector(".btn_header")
 

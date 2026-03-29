@@ -1,5 +1,5 @@
 export const About = () => {
-    return `
+    return /* html */`
     <section id="about-us" class="about_us">
     <div class="about_container">
     <div class="about_text">

@@ -5,6 +5,7 @@
     @include section_layout;
     margin: 0 auto;
     justify-content: flex-start;
+    gap: 30px;
 }
 
 .delivery_title {
@@ -29,7 +30,7 @@
     position: absolute;
     z-index: 5;
     top: 20px;
-    left: 20px;
+    right: 118px;
     width: 170px;
     height: 50px;
     background-color: #27AE60;

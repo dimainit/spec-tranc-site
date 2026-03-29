@@ -1,5 +1,5 @@
 const links = [
-  { name: "Услуги", link: "#" },
+  { name: "Аренда техники", link: "#" },
   { name: "Материалы", link: "#" },
   { name: "Доставка и оплата", link: "#" },
   { name: "О компании", link: "#" },
@@ -16,7 +16,7 @@ export const Header = () => {
   return `
     <header class="header">
      <div class="header_container">
-     <img class="logo_header" src="/Icon/headerLogo.svg" alt="Спец-Транс">
+     <img class="logo_header" src="/Icon/logo.svg" alt="Спец-Транс">
      <nav class="nav_links">
      ${createLinks()}
      </nav>

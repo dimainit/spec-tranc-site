@@ -6,7 +6,8 @@ export const Delivery = () => {
     <div class="delivery_container">
     <div class="delivery_block_left">
     <h1 class="delivery_title">Доставка</h1>
-    <p class="delivery_text">Основная миссия компании Спец-транс — комплексные поставки нерудных материалов для корпоративных клиентов и частных лиц. Мы осуществлем доставку по Санкт-Петербургу и Ленинградской области.
+    <p class="delivery_text">Обеспечиваем оперативную доставку строительных материалов и спецтехники по всей Праге и пригороду. 
+        Ваш груз прибудет вовремя и в полной сохранности.
 </p>
 <ul class="delivery_list">
     <li class="delivery_item">
@@ -29,26 +30,29 @@ export const Delivery = () => {
 <div class="delivery_contacts">
 <div class="delivery_adress">
 <h4 class="adress_title">
-г. Санкт-Петербург
+г. Прага
 </h4>
 <p class="adress_subtitle">
-Невский проспект, д. 12/2
+За Стодола 20, 251 01 Модлетице
 </p>
 </div>
 <div class="delivery_num">
 <h4 class="num_title">
-+7 812 545 44 53
++420 606 110 110
 </h4>
 <p class="num_subtitle">
-Ежедневно с 08:00 до 24:00
+По будням с 07:00 до 17:00
 </p>
 </div>
 </div>
     </div>
     <div class="delivery_block_right">
     <div class="map_delivery">
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9ff26ccbb15b1ed5a01c673142275591cdf5a1612ed00aa4394480f8c6406b1d&amp;source=constructor" width="650" height="600" frameborder="0"></iframe>
+    <div class="map_wrapper">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.1974274573536!2d14.589376!3d49.970155999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b8ee356e9ab6f%3A0x58dfcf23a32364a4!2sSpecTrans!5e0!3m2!1sru!2scz!4v1774808009640!5m2!1sru!2scz" width="850" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <button id="map-btn" class="map_btn">Зона доставки</button>
+    <div class="map-overlay"></div>
+    </div>
     </div>
     </div>
     </section>
@@ -58,8 +62,6 @@ export const Delivery = () => {
 export const btnMapLink = () => {
     const mapBtn = document.querySelector("#map-btn")
     mapBtn.addEventListener("click", (event) => {
-        window.open(
-          "https://yandex.com/maps/2/saint-petersburg/?from=mapframe&ll=30.316703%2C59.937377&mode=usermaps&source=mapframe&um=constructor%3A9ff26ccbb15b1ed5a01c673142275591cdf5a1612ed00aa4394480f8c6406b1d&utm_source=mapframe&z=14","_blank"
-        );
+        window.open("https://maps.app.goo.gl/eP8tAhQH418hE5CD9", "_blank");
     })
 }

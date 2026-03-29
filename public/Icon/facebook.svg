@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <mask id="cut-fb" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <rect width="24" height="24" fill="black"/>
+      <circle cx="12" cy="12" r="11" fill="white"/>
+      <path d="M13.15 19V12.8H15.24L15.55 10.38H13.15V8.84C13.15 8.14 13.34 7.67 14.35 7.67H15.63V5.5C15.01 5.43 14.38 5.4 13.76 5.41C11.92 5.41 10.67 6.53 10.67 8.59V10.38H8.62V12.8H10.67V19H13.15Z" fill="black"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="white" mask="url(#cut-fb)"/>
+</svg>
