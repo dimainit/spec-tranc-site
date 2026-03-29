@@ -33,7 +33,7 @@ const createMaterials = () => {
 
 export const Materials = () => {
     return `
-    <section class="materials">
+    <section id="materials" class="materials">
     <h1 class="materials_title">Основные материалы</h1>
     <div class="materials_list">
     ${createMaterials()}

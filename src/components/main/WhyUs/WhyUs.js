@@ -35,7 +35,7 @@ const createItems = () => {
 
 export const WhyUs = () => {
     return `
-    <section class="advantages">
+    <section id="advantages" class="advantages">
     <h1 class="advantages_title">Почему выбирают нас</h1>
     <div class="advantages_list">
     ${createItems()}

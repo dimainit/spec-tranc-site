@@ -1,4 +1,4 @@
-@import "../../../base/mixins";
+@use "../../../base/mixins" as *;
 
 .questions {
     width: 100%;
@@ -7,8 +7,10 @@
 
 .questions_container {
     @include section_layout;
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 
@@ -59,6 +61,8 @@
 }
 
 .form {
+    position: relative; 
+    z-index: 10;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -66,12 +70,11 @@
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.05);
-
 }
 
 
 .form_input {
-    padding: 20px 250px 20px 30px;
+    padding: 20px 30px;
     border: 1px solid #e0e0e0;
     outline: none;
     border-radius: 6px;
@@ -84,14 +87,63 @@
 }
 
 .form_textarea {
-    padding: 20px 250px 20px 30px;
+    padding: 20px 30px;
     border: 1px solid #e0e0e0;
     outline: none;
     border-radius: 6px;
     font-family: Rubik;
     font-size: 18px;
+    overflow: hidden;
     &::placeholder {
         font-size: 16px;
         color: #BDBDBD;
     }
 }
+
+.checkbox_agree {
+    width: 15px; 
+    height: 15px;
+    cursor: pointer;
+    accent-color: #27AE60;
+    margin-right: 5px;
+}
+
+.form_agree {
+    display: flex;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 16px;
+    color: #1D1D1B;
+}
+
+.contacts_block {
+    position: relative;
+    z-index: 5;
+    width: 600px
+}
+
+.back_green_bg {
+    position: absolute;
+    z-index: 1;
+    width: 320px;
+    top: -60px; 
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#27AE60;
+}
+
+.error_Form {
+    border: 1px red solid;
+}
+
+.error_name, .error_tel, .error_com, .error_agree {
+    font-size: 16px;
+    line-height: 1.1;
+    padding-bottom: 10px;
+}
+
+.text_agree_checked {
+    color: red;
+}
+

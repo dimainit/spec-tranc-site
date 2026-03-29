@@ -2,7 +2,7 @@ import { Header } from "../Header";
 
 export const Hero = () => {
   return `
-  <section class="hero">
+  <section id="hero" class="hero">
   ${Header()}
     <div class="hero_content">
     <h1 class="hero_title">
@@ -17,6 +17,7 @@ export const Hero = () => {
         Заказать звонок
         </button>
         <div class="hero_blur"</div>
+        <div class="hero_blur"></div>
         </div>
         </section>
     `;

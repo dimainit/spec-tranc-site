@@ -1,4 +1,4 @@
-@import "../../../base/mixins";
+@use "../../../base/mixins" as *;
 
 .materials {
     max-width: 1420px;

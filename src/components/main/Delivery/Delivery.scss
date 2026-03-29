@@ -1,0 +1,90 @@
+@use "../../../base/mixins" as *;
+
+.delivery_container {
+    display: flex;
+    @include section_layout;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.delivery_title {
+    font-size: 42px;
+    font-family: Rubik;
+    margin-top: 40px;
+}
+
+.map_delivery {
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.button._view_air._size_small  {
+    display: none;
+}
+
+.map_btn {
+    position: absolute;
+    z-index: 5;
+    top: 20px;
+    left: 20px;
+    width: 170px;
+    height: 50px;
+    background-color: #27AE60;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.map_btn:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+.delivery_text {
+    margin-top: 30px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1E1E1C;
+}
+
+.delivery_list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.delivery_item {
+    display: flex;
+    gap: 20px;
+}
+
+
+.delivery_contacts {
+    display: flex;
+    margin-top: 80px;
+    justify-content: flex-start;   
+    gap: 20px;
+}
+
+.delivery_adress, .delivery_num {
+    background-color: #F8F8F8;
+    width: 340px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.adress_title, .num_title {
+    margin-bottom: 24px;
+}

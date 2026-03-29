@@ -24,7 +24,6 @@ export const Header = () => {
         <span class="btn_header_title">Заказать звонок</span>
      </button>
      </div>
-
      </header>
     `;
 };

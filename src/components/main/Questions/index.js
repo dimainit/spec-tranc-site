@@ -1,3 +1,3 @@
 import "./Questions.scss"
-export { Questions } from "./Questions.js"
+export { Questions, initForm } from "./Questions.js"
 

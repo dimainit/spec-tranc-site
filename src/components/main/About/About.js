@@ -1,6 +1,6 @@
 export const About = () => {
     return `
-    <section class="about_us">
+    <section id="about-us" class="about_us">
     <div class="about_container">
     <div class="about_text">
     <h1 class="about_title">О компании СПЕЦ-ТРАНС</h1>
