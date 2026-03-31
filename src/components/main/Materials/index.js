@@ -1,2 +1,2 @@
-import "./Materials.scss"; 
-export { Materials } from "./Materials.js"; 
+import "./Material.scss"; 
+export { Materials } from "./Material.js"; 

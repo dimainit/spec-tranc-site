@@ -3,7 +3,6 @@ import { Header } from "../Header";
 export const Hero = () => {
   return `
   <section id="hero" class="hero">
-  ${Header()}
     <div class="hero_content">
     <h1 class="hero_title">
     Продажа и доставка нерудных материалов
