@@ -1,0 +1,55 @@
+.equipment {
+    max-width: 1420px;
+    margin: 80px auto 0;
+}
+
+.equipment_container {
+    display: flex;
+    gap: 160px;
+}
+
+.equipment_img {
+    width: 515px;
+    height: 367px;
+    border-radius: 8px;
+}
+
+.equipment_title {
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.equipment_subtitle {
+    font-family: Rubik;
+    width: 580px;
+    color: #67675F;
+    padding-bottom: 35px;
+}
+
+.equipment_buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.equipment_btn {
+    color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: #27AE60;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.equipment_btn:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+.equipment_btn_title {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+}

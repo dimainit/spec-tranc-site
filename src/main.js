@@ -1,9 +1,11 @@
 import "./style.css";
+import page from "page";
 import { Header, Footer, Main } from "./components";
 import { InitRouter } from "./router";
 import { initForm } from "./components/main/Questions";
 import { btnMapLink } from "./components/main/Delivery/Delivery";
 import { iconSocialNetworks } from "./components/Footer/Footer";
+import { Rent } from "./pages";
 
 
 const initAllLogics = () => {
@@ -15,18 +17,37 @@ const initAllLogics = () => {
 
     const btnHeader = document.querySelector(".btn_header");
 
-    btnHeader.addEventListener("click", (event) => {
+    btnHeader.addEventListener("click", () => {
       const target = document.querySelector("#questions");
       target.scrollIntoView({ behavior: "smooth" });
     });
 
 
     const btnHero = document.querySelector(".hero_btn");
+
     if (btnHero) {
-      btnHero.addEventListener("click", (event) => {
+      btnHero.addEventListener("click", () => {
         const target = document.querySelector("#questions");
         target.scrollIntoView({ behavior: "smooth" });
       });
+    }
+
+    const btnEquipment = document.querySelector("#eq_btn_to_questions");
+
+    if (btnEquipment) {
+      btnEquipment.addEventListener("click", () => {
+        const target = document.querySelector("#questions");
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    }
+
+    const btnRent = document.querySelector("#eq_btn_to_page")
+
+    if(btnRent) {
+      btnRent.addEventListener("click", () => {
+        page.show("/rent")
+
+      })
     }
 
     
@@ -38,6 +59,7 @@ const renderApp = (Page, currentPath) => {
     ${Main(Page)}
     ${Footer(currentPath)}
     `
+     window.scrollTo({ top: 0, behavior: "instant" });
 
     initAllLogics();
 }

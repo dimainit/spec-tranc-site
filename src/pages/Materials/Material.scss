@@ -1,0 +1,15 @@
+#MaterialsPage {
+    padding-top: 100px;
+    width: 100%;
+    display: block;
+}
+
+.material_page_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.material_page_block {
+    display: flex;
+}

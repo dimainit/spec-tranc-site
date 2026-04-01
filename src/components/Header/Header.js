@@ -16,6 +16,7 @@ const createHeaderLinks = (currentPath) => {
 };
 
 export const Header = (currentPath) => {
+
   return `
     <header class="header">
      <div class="header_container">
