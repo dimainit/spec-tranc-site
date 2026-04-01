@@ -22,11 +22,12 @@ const initAllLogics = () => {
 
 
     const btnHero = document.querySelector(".hero_btn");
-
-    btnHero.addEventListener("click", (event) => {
-      const target = document.querySelector("#questions");
-      target.scrollIntoView({ behavior: "smooth" });
-    });
+    if (btnHero) {
+      btnHero.addEventListener("click", (event) => {
+        const target = document.querySelector("#questions");
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    }
 
     
 }
@@ -35,7 +36,7 @@ const renderApp = (Page, currentPath) => {
     document.querySelector("#root").innerHTML=`
     ${Header(currentPath)}
     ${Main(Page)}
-    ${Footer()}
+    ${Footer(currentPath)}
     `
 
     initAllLogics();

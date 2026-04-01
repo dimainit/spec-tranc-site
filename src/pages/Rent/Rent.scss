@@ -1,0 +1,96 @@
+@use "../../base/mixins" as *;
+
+#rent {
+    padding-top: 100px;
+    width: 100%;
+    display: block; 
+}
+
+
+.rent_container {
+    max-width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.rent_block {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.rent_right_text {
+    margin-left: 40px;
+    max-width: 800px;
+}
+
+.rent_title {
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.rent_subtitle {
+    color: #1D1D1B;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.img_rent {
+    width: 550px;
+    height: 480px;
+}
+
+.rent_price_list {
+    margin-top: 45px;
+}
+
+.rent_price_item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.rent_tech_title {
+    font-size: 16px;
+    color: #1c1c1a;
+    font-weight: 400;
+    font-family: Rubik;
+}
+
+.rent_tech_subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Rubik;
+}
+
+.price_item {
+    color: #219150;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Rubik;
+}
+
+.price_time {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Rubik;
+}
+
+.rent_line {
+    flex: 1;
+    height: 1px;
+    background-color: #d9d9d9;
+    display: block;
+    margin: 0 10px;
+}

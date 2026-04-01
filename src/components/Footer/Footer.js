@@ -1,6 +1,21 @@
 import "./Footer.scss";
 
-export const Footer = () => {
+const footerLinks = [
+    { name: "Аренда техники", link: "/rent"},
+    { name: "Материалы", link: "/materials"}
+]
+
+const createFooterLinks = (currentPath) => {
+    return footerLinks
+        .map((element) => {
+            const activeClass = element.link === currentPath ? "active" : "";
+      return `<a href="${element.link}" class="nav_link ${activeClass}">${element.name}</a>`;
+    })
+    .join("");
+};
+
+
+export const Footer = (currentPath) => {
   return /* html */ `
     <section id="footer" class="footer">
     <div class="footer_container">
@@ -11,8 +26,7 @@ export const Footer = () => {
     <div class="footer_center">
     <nav class="footer_nav_links">
     <div class="links_list">
-    <a href="#" class="links_item">Аренда техники</a>
-    <a href="#" class="links_item">Материалы</a>
+    ${createFooterLinks(currentPath)}
     </div>
     </nav>
     </div>

@@ -61,7 +61,10 @@ export const Delivery = () => {
 
 export const btnMapLink = () => {
     const mapBtn = document.querySelector("#map-btn")
-    mapBtn.addEventListener("click", (event) => {
-        window.open("https://maps.app.goo.gl/eP8tAhQH418hE5CD9", "_blank");
-    })
+    if (mapBtn) {
+
+        mapBtn.addEventListener("click", (event) => {
+            window.open("https://maps.app.goo.gl/eP8tAhQH418hE5CD9", "_blank");
+        })
+    }
 }

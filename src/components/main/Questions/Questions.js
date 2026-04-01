@@ -30,67 +30,70 @@ export const Questions = () => {
 };
 
 export const initForm = () => {
-   const submitBtn = document.querySelector(".questions_btn")
-   submitBtn.addEventListener("click", (event) => {
-      event.preventDefault()
-      let hasError = false
-     const inputName = document.querySelector("#name")
-     const nameValue = inputName.value
-     const nameError = document.querySelector(".error_name")
-     const inputTel = document.querySelector("#tel")
-     const telValue = inputTel.value
-     const telError = document.querySelector(".error_tel")
-     const inputCom = document.querySelector("#comment")
-     const comValue = inputCom.value
-     const comError = document.querySelector(".error_com");
-     if (nameValue === "") {
-     inputName.classList.add("error_Form")
-     nameError.textContent = "Заполните поле!"
-     hasError = true;
-     } else if (nameValue.length < 3) {
-      inputName.classList.add("error_Form")
-      nameError.textContent = "Минимум 3 символа";
-      hasError = true;
-     }else {
-      inputName.classList.remove("error_Form")
-      nameError.textContent=""
-     }
-     if (telValue === "") {
-       inputTel.classList.add("error_Form");
-       telError.textContent = "Заполните поле!";
-       hasError = true;
-     } else if (!telValue.startsWith("+")) {
-       inputTel.classList.add("error_Form");
-       telError.textContent = "Используйте +";
-       hasError = true;
-     } else if (telValue.length < 10 || telValue.length > 15) {
-       inputTel.classList.add("error_Form");
-       telError.textContent = "Неверная длина";
-       hasError = true;
-     } else if (isNaN(telValue)) {
-       telError.textContent = "Только цифры!";
-       hasError = true;
-     } else {
-       inputTel.classList.remove("error_Form");
-       telError.textContent = "";
-     }
-       if (comValue === "") {
-         inputCom.classList.add("error_Form");
-         comError.textContent = "Заполните поле!";
+   const submitBtn = document.
+   querySelector(".questions_btn")
+   if (submitBtn) {
+
+     submitBtn.addEventListener("click", (event) => {
+       event.preventDefault()
+       let hasError = false
+       const inputName = document.querySelector("#name")
+       const nameValue = inputName.value
+       const nameError = document.querySelector(".error_name")
+       const inputTel = document.querySelector("#tel")
+       const telValue = inputTel.value
+       const telError = document.querySelector(".error_tel")
+       const inputCom = document.querySelector("#comment")
+       const comValue = inputCom.value
+       const comError = document.querySelector(".error_com");
+       if (nameValue === "") {
+         inputName.classList.add("error_Form")
+         nameError.textContent = "Заполните поле!"
          hasError = true;
-       } else {
-         inputCom.classList.remove("error_Form");
-         comError.textContent = "";
-       } 
-      const checkboxAgree = document.querySelector("#agree")
-      const labelAgree = document.querySelector("label[for='agree']")
-      const agreeError = document.querySelector(".error_agree")
-      if (!checkboxAgree.checked) {
-        labelAgree.classList.add("text_agree_checked");
-        agreeError.textContent = "Поставьте галочку!";
-        hasError = true;
-      } else {
-        labelAgree.classList.remove("text_agree_checked");
+        } else if (nameValue.length < 3) {
+          inputName.classList.add("error_Form")
+          nameError.textContent = "Минимум 3 символа";
+          hasError = true;
+        }else {
+          inputName.classList.remove("error_Form")
+          nameError.textContent=""
+        }
+        if (telValue === "") {
+          inputTel.classList.add("error_Form");
+          telError.textContent = "Заполните поле!";
+          hasError = true;
+        } else if (!telValue.startsWith("+")) {
+          inputTel.classList.add("error_Form");
+          telError.textContent = "Используйте +";
+          hasError = true;
+        } else if (telValue.length < 10 || telValue.length > 15) {
+          inputTel.classList.add("error_Form");
+          telError.textContent = "Неверная длина";
+          hasError = true;
+        } else if (isNaN(telValue)) {
+          telError.textContent = "Только цифры!";
+          hasError = true;
+        } else {
+          inputTel.classList.remove("error_Form");
+          telError.textContent = "";
+        }
+        if (comValue === "") {
+          inputCom.classList.add("error_Form");
+          comError.textContent = "Заполните поле!";
+          hasError = true;
+        } else {
+          inputCom.classList.remove("error_Form");
+          comError.textContent = "";
+        } 
+        const checkboxAgree = document.querySelector("#agree")
+        const labelAgree = document.querySelector("label[for='agree']")
+        const agreeError = document.querySelector(".error_agree")
+        if (!checkboxAgree.checked) {
+          labelAgree.classList.add("text_agree_checked");
+          agreeError.textContent = "Поставьте галочку!";
+          hasError = true;
+        } else {
+          labelAgree.classList.remove("text_agree_checked");
         agreeError.textContent = "";
       }
       if (!hasError) {
@@ -98,9 +101,10 @@ export const initForm = () => {
          btnText.textContent = "Отправлено!"
          document.querySelector("#questions-form").reset()
          setTimeout(() => {
-            btnText.textContent="Заказать звонок"
+           btnText.textContent="Заказать звонок"
          }, 2000)
       }
    })
+  }
 }
 
