@@ -1,9 +1,7 @@
 @use "../../../base/mixins" as *;
 
-.materials {
-    max-width: 1420px;
-    margin: 80px auto 0;
-    padding-bottom: 80px;
+.container {
+    @include container;
 }
 
 .materials_list {
@@ -13,6 +11,8 @@
 }
 
 .materials_item {
+    flex: 1;
+    min-width: 0;
     position: relative; 
     transition: 0.2s;
     cursor: pointer;
@@ -43,13 +43,15 @@
     height: 100%;
     object-fit: cover; 
     display: block;
-    width: 340px;
+    max-width: 340px;
     height: 524px;
+    object-fit: cover;
 }
 
 
 .materials_title {
-    @include title_standart
+    @include title_standart;
+    
 }
 
 

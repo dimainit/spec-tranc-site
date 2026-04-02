@@ -34,12 +34,14 @@ const createItems = () => {
 
 
 export const WhyUs = () => {
-    return `
+    return /* html */ `
     <section id="advantages" class="advantages">
+    <div class="container">
     <h1 class="advantages_title">Почему выбирают нас</h1>
     <div class="advantages_list">
     ${createItems()}
     </div>
     </section>
+    </div>
     `
 }

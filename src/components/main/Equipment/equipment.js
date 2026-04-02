@@ -1,6 +1,7 @@
 export const Equipment = () => {
     return /* html */ `
     <section id="equipment" class="equipment">
+    <div class="container">
     <div class="equipment_container">
     <img class="equipment_img" src="/Img/equipment.jpg" alt="Equipment" />
     <div class="equipment_content">
@@ -12,6 +13,7 @@ export const Equipment = () => {
     <button id="eq_btn_to_page" class="equipment_btn"><span class="equipment_btn_title">Подробнее</span></button>
     </div>
 
+    </div>
     </div>
     </section>
     `;

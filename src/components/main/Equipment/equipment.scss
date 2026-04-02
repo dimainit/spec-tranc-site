@@ -1,17 +1,28 @@
-.equipment {
-    max-width: 1420px;
-    margin: 80px auto 0;
+@use "../../../base/mixins" as *;
+
+.container {
+@include container
 }
 
 .equipment_container {
     display: flex;
-    gap: 160px;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .equipment_img {
-    width: 515px;
-    height: 367px;
+    flex: 1 1 400px;
+    max-width: 750px;
+    min-width: 300px;
+    height: auto;
     border-radius: 8px;
+}
+
+.equipment_content {
+    flex: 1 1 300px;
+    min-width: 320px;
 }
 
 .equipment_title {
@@ -22,19 +33,24 @@
 
 .equipment_subtitle {
     font-family: Rubik;
-    width: 580px;
+    max-width: 600px;
     color: #67675F;
     padding-bottom: 35px;
+    line-height: 1.5;
 }
 
 .equipment_buttons {
     display: flex;
+    flex-wrap: nowrap;
+    min-width: 320px;
     gap: 20px;
 }
 
 .equipment_btn {
     color: white;
-    width: 230px;
+    width: 100%;
+    flex:  0 1 230px;
+    min-width: 150px;
     height: 60px;
     border-radius: 8px;
     border: none;

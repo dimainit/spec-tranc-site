@@ -1,58 +1,80 @@
 @use "../../../base/mixins" as *;
 
-.about_us {
-    width: 100%;
+.container {
+    @include container
 }
 
 .about_container {
-    @include section_layout; // сюда переноси миксин
-    margin: 0 auto;
+    max-width: 1420px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap
 }
 
 .about_title {
-    @include title_standart
+    @include title_standart;
 }
 
 .about_subtitle {
     font-family: Rubik;
-    width: 580px;
+    max-width: 600px;
     color: #67675F;
+}
+
+.about_text {
+    flex: 1;
+    min-width: 320px;
 }
 
 .about_stats {
     display: flex;
+    flex: 1;
+    min-width: 320px;
+    justify-content: space-between;
+    align-items: center;
     background-color: #F8F8F8;
-    padding: 120px 90px;
     border-radius: 24px;
+    padding: 126px 0;
 }
 
 .stat_blocks {
     display: flex;
-    gap: 150px;
+    justify-content: space-between;
+    gap: 100px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .stat {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    flex: 1;
+    gap: 30px;
 }
 
 .stat_num {
+    position: relative;
+    margin-bottom: 10px;
     font-size: 88px;
     font-family: Rubik;
     font-weight: 300;
-    padding-bottom: 18px;
 }
 
 .stat_subtitle {
-    color:#67675F
+    color:#67675F;
+    font-size: 18px;
 }
 
 .stat_plus {
     position: absolute;
+    bottom: 40px;
     font-size: 40px;
     color: #27AE60;
     font-weight: 500;
-    bottom: 100px;
-    left: 130px;
 }

@@ -1,6 +1,7 @@
 export const Questions = () => {
   return /* html */ `
    <section id="questions" class="questions">
+   <div class="container">
    <div class="questions_container">
    <div class="questions_block">
    <h1 class="questions_title">Остались вопросы?</h1>
@@ -23,6 +24,7 @@ export const Questions = () => {
    </div>
    <span class="error_agree" data-error-for="agree"></span>
    </form>
+   </div>
    </div>
    </div>
    </section>

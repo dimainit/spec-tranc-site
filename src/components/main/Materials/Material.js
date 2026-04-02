@@ -12,8 +12,8 @@ const materials = [
     title: "Асфальтная крошка",
   },
   {
-    image: "/Img/technology.png",
-    title: "Аренда техники",
+    image: "/Img/black_earth.jpg",
+    title: "Чернозём",
   },
 ];
 
@@ -32,11 +32,13 @@ const createMaterials = () => {
 }
 
 export const Materials = () => {
-    return `
+    return /* html */`
     <section id="materials" class="materials">
+    <div class="container">
     <h1 class="materials_title">Основные материалы</h1>
     <div class="materials_list">
     ${createMaterials()}
+    </div>
     </div>
     </section>
     `;
