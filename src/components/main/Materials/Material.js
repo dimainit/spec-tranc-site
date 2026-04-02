@@ -34,7 +34,7 @@ const createMaterials = () => {
 export const Materials = () => {
     return /* html */`
     <section id="materials" class="materials">
-    <div class="container">
+    <div class="containerMaterials">
     <h1 class="materials_title">Основные материалы</h1>
     <div class="materials_list">
     ${createMaterials()}

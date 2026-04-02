@@ -36,12 +36,12 @@ const createItems = () => {
 export const WhyUs = () => {
     return /* html */ `
     <section id="advantages" class="advantages">
-    <div class="container">
+    <div class="containerAdvantages">
     <h1 class="advantages_title">Почему выбирают нас</h1>
     <div class="advantages_list">
     ${createItems()}
     </div>
     </section>
     </div>
-    `
+    `;
 }

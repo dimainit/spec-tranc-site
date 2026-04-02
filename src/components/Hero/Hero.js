@@ -3,7 +3,7 @@ import { Header } from "../Header";
 export const Hero = () => {
   return /* html */ `
   <section id="hero" class="hero">
-  <div class="container">
+  <div class="containerHero">
   <div class="hero_content">
   <h1 class="hero_title">
   Продажа и доставка нерудных материалов
@@ -16,7 +16,6 @@ export const Hero = () => {
       <button class="hero_btn">
       Заказать звонок
       </button>
-      <div class="hero_blur"></div>
       <div class="hero_blur"></div>
       </div>
   </div>

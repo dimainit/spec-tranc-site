@@ -1,7 +1,7 @@
 export const About = () => {
     return /* html */`
     <section id="about-us" class="about_us">
-    <div class="container">
+    <div class="containerAbout">
     <div class="about_container">
     <div class="about_text">
     <h1 class="about_title">О компании СПЕЦ-ТРАНС</h1>

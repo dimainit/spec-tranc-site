@@ -1,7 +1,7 @@
 export const Questions = () => {
   return /* html */ `
    <section id="questions" class="questions">
-   <div class="container">
+   <div class="containerQuestions">
    <div class="questions_container">
    <div class="questions_block">
    <h1 class="questions_title">Остались вопросы?</h1>

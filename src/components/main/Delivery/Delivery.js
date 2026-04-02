@@ -3,6 +3,8 @@ import "./Delivery.scss";
 export const Delivery = () => {
   return /* html */ `
     <section id="delivery" class="delivery">
+    <div class="containerDelivery">
+
     <div class="delivery_container">
     <div class="delivery_block_left">
     <h1 class="delivery_title">Доставка</h1>
@@ -49,9 +51,10 @@ export const Delivery = () => {
     <div class="delivery_block_right">
     <div class="map_delivery">
     <div class="map_wrapper">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.1974274573536!2d14.589376!3d49.970155999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b8ee356e9ab6f%3A0x58dfcf23a32364a4!2sSpecTrans!5e0!3m2!1sru!2scz!4v1774808009640!5m2!1sru!2scz" width="850" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.1974274573536!2d14.589376!3d49.970155999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b8ee356e9ab6f%3A0x58dfcf23a32364a4!2sSpecTrans!5e0!3m2!1sru!2scz!4v1774808009640!5m2!1sru!2scz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <button id="map-btn" class="map_btn">Зона доставки</button>
     <div class="map-overlay"></div>
+    </div>
     </div>
     </div>
     </div>

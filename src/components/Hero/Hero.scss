@@ -1,12 +1,12 @@
 @use "../../../src/base/mixins" as *;
 
-.container {
+.containerHero  {
 @include container;
 }
 
 .hero {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("/Img/heroImg.png");
     display: flex;
     align-items: center;
@@ -19,7 +19,6 @@
     position: relative;
     max-width: 800px;
     z-index: 5;
-    padding-left: 120px;
     padding-top: 50px;
 }
 
