@@ -65,3 +65,94 @@ header {
 }
 
 
+@media (max-width: 1146px) {
+    .nav_links {
+        gap: 30px;
+        font-size: 15px;
+    }
+    .btn_header {
+        width: 160px;
+        height: 45px;
+    }
+    .btn_header_title {
+        font-size: 15px;
+    }
+    .logo_header {
+        width: 200px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header_container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav_links {
+        gap: 20px;
+        font-size: 14px;
+    }
+    .btn_header {
+        width: 155px;
+        height: 40px;
+    }
+    .btn_header_title {
+        font-size: 14px;
+    }
+    .logo_header {
+        width: 180px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 892px) {
+    .header_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav_links {
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .btn_header {
+        width: 140px;
+        height: 35px;
+    }
+
+    .btn_header_title {
+        font-size: 13px;
+    }
+
+    .logo_header {
+        width: 155px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 834px) {
+    .header_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav_links {
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    .btn_header {
+        width: 120px;
+        height: 30px;
+    }
+
+    .btn_header_title {
+        font-size: 11px;
+    }
+
+    .logo_header {
+        width: 140px;
+        height: 45px;
+    }
+}

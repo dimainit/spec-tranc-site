@@ -14,7 +14,7 @@ export const Hero = () => {
 нашей компании.
       </p>
       <button class="hero_btn">
-      Заказать звонок
+      <span class="hero_btn_title">Заказать звонок</span>
       </button>
       <div class="hero_blur"></div>
       </div>
