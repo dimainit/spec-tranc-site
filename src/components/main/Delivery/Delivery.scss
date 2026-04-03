@@ -118,7 +118,29 @@
 .adress_title, .num_title {
     margin-bottom: 24px;
 }
+@media (max-width: 1296px) {
+    .adress_subtitle {
+        text-align: center;
+    }
+}
 
+@media (max-width: 1102px) {
+    .adress_subtitle {
+        font-size: 17px;
+    }
+    .num_subtitle {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .adress_subtitle {
+        text-align: center;
+    }
+    .num_subtitle {
+        text-align: center;
+    }
+}
 
 @media (max-width: 754px) {
     .delivery_container {

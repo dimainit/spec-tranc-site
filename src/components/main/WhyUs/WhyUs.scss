@@ -43,14 +43,11 @@
 }
 
 @media (max-width: 1192px) {
-    .containerAdvantages {
-        padding: 0 20px;
-    }
     .advantages_list {
         flex-wrap: nowrap;
     }
     .advantages_title {
-        font-size: 38px;
+        font-size: 42px;
         margin: 26px 0 42px;
     }
 
@@ -65,11 +62,12 @@
 }
 
 @media (max-width: 1024px) {
-    .containerAdvantages {
-        text-align: center;
-    }
     .advantages_list{
         flex-wrap: wrap;
+    }
+
+    .advantages_title {
+        font-size: 40px;
     }
 }
 

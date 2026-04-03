@@ -65,6 +65,36 @@ header {
 }
 
 
+.burger {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.burger_icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.burger_Close {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    display: block;
+    right: 12px;
+}
+
+.burger_menu {
+    position: fixed;
+    inset: 0 0 0 auto;
+    height: auto;
+    width: 350px;
+    background-color: #ffffff;
+    border: none;
+}
+
+
 @media (max-width: 1146px) {
     .nav_links {
         gap: 30px;
@@ -77,10 +107,6 @@ header {
     .btn_header_title {
         font-size: 15px;
     }
-    .logo_header {
-        width: 200px;
-        height: 75px;
-    }
 }
 
 @media (max-width: 992px) {
@@ -89,7 +115,7 @@ header {
         justify-content: space-around;
     }
     .nav_links {
-        gap: 20px;
+        gap: 25px;
         font-size: 14px;
     }
     .btn_header {
@@ -100,7 +126,7 @@ header {
         font-size: 14px;
     }
     .logo_header {
-        width: 180px;
+        width: 200px;
         height: 70px;
     }
 }
@@ -126,8 +152,8 @@ header {
     }
 
     .logo_header {
-        width: 155px;
-        height: 55px;
+        width: 190px;
+        height: 70px;
     }
 }
 
@@ -152,7 +178,29 @@ header {
     }
 
     .logo_header {
-        width: 140px;
-        height: 45px;
+        width: 170px;
+        height: 60px;
     }
+}
+
+
+
+@media (max-width: 768px) {
+    .header_container {
+        justify-content: space-between;
+        padding: 15px 25px;
+        width: 100%;
+    }
+
+    .logo_header {
+        width: 200px;
+        height: 80px;
+    }
+    .nav_links, .btn_header {
+    display: none;
+  }
+  
+    .burger {
+    display: block; 
+  }
 }

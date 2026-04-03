@@ -69,3 +69,21 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+@media (max-width: 1024px) {
+    .equipment_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .equipment_title {
+        font-size: 40px;
+    }
+    .equipment_btn {
+        flex: 0 1 180px;
+        height: 54px;
+    }
+    .equipment_btn_title {
+        font-size: 18px;
+    }
+}
