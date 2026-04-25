@@ -1,0 +1,41 @@
+@mixin container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@mixin section_layout {
+    max-width: 1420px;
+    margin: 80px auto 0;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@mixin title_standart {
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+@mixin flex_row_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex_column_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin btn_hover {
+        background-color: #219150;
+        transform: translateY(-2px);
+}

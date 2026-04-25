@@ -1,0 +1,164 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "rent": "Rent",
+      "materials": "Materials",
+      "about": "About Us",
+      "contacts": "Contacts"
+    },
+    "button": "Request a callback",
+    "mobileMenu": {
+      "button": "Request a callback",
+      "policy": "Privacy Policy © Spec-Trans, 2026"
+    }
+  },
+  "hero": {
+    "title": "Sale and delivery of aggregates",
+    "subtitle": "You can order premium-quality materials from us. An individual approach and high-quality products are the key advantages of our company.",
+    "button": "Request a callback"
+  },
+  "main": {
+    "whyus": {
+      "title": "Why choose us",
+      "block1": "We have been operating since <span class='green_color'>2000</span>",
+      "block2": "Over <span class='green_color'>5,000</span> satisfied customers",
+      "block3": "Best prices.",
+      "block4": "High-quality products.",
+      "block5": "Efficiency."
+    },
+    "equipment": {
+      "title": "Equipment rental.",
+      "subtitle": "We operate our own fleet of modern construction equipment in Prague. We offer reliable solutions for earthworks, material transportation, and site preparation. We work efficiently and at competitive prices.",
+      "button1": "Request a callback",
+      "button2": "Learn more"
+    },
+    "materials": {
+      "title": "Main materials",
+      "card1": "Sand",
+      "card2": "Crushed stone",
+      "card3": "Asphalt millings",
+      "card4": "Topsoil"
+    },
+    "about": {
+      "title": "About SPEC-TRANS",
+      "subtitle": "Our company has been operating for many years, earning a reputation in the market as a reliable and responsible partner. Our clients include some of the largest organizations. At the same time, both large companies and private individuals can count on an individual approach when ordering our services.",
+      "textOnBlock1": "Units of equipment",
+      "textOnBlock2": "Quarries"
+    },
+    "questions": {
+      "title": "Got questions?",
+      "subtitle": "Request a call back and learn more about our services!",
+      "text": "Submit your request and we’ll call you back in 10 minutes.",
+      "button": "Request a callback",
+      "namePlaceholder": "Name",
+      "phonePlaceholder": "Phone number",
+      "commentPlacholder": "Message",
+      "agreeText": "I agree to the processing of personal data",
+      "successText": "Sent",
+      "form": {
+        "name": {
+          "error1": "This field is required",
+          "error2": "Minimum 3 characters"
+        },
+        "tel": {
+          "error1": "This field is required",
+          "error2": "Phone number must start with +",
+          "error3": "Invalid phone number length",
+          "error4": "Only digits are allowed"
+        },
+        "com": {
+          "error1": "This field is required"
+        },
+        "agree": {
+          "error1": "Please check the box"
+        }
+      }
+    },
+    "delivery": {
+      "title": "Delivery",
+      "subtitle": "We provide prompt delivery of construction materials and special equipment throughout Prague and the surrounding areas. Your cargo will arrive on time and in complete safety.",
+      "item1": "You leave a request through the website or by phone.",
+      "item2": "We prepare an accurate cost estimate.",
+      "item3": "We deliver the materials you ordered exactly on time.",
+      "item4": "We ensure proper and timely document processing.",
+      "addressTitle": "Prague",
+      "addressSubtitle": "Za Stodola 20, 251 01 Modletice",
+      "phoneTitle": "+420 606 110 110",
+      "phoneSubtitle": "On weekdays from 07:00 to 17:00",
+      "button": "Delivery area",
+      "shortButton": "Area"
+    }
+  },
+  "pages": {
+    "rent": {
+      "special": {
+        "title": "Special equipment rental",
+        "subtitle": "We offer affordable rental terms for various equipment on a daily or long-term basis.",
+        "item1": {
+          "name": "Mini-excavator",
+          "text": "(up to 5t)"
+        },
+        "item2": {
+          "name": "Backhoe loader JCB",
+          "text": "(up to 12t)"
+        },
+        "item3": {
+          "name": "Crawler excavator",
+          "text": "(up to 22t)"
+        },
+        "slashHour": "/hour",
+        "slashDay": "/day"
+      },
+      "trucks": {
+        "title": "Dump truck rental",
+        "subtitle": "We offer affordable rental terms for various trucks on a daily or long-term basis.",
+        "item1": {
+          "name": "Dump truck",
+          "text": "(20m³)"
+        },
+        "item2": {
+          "name": "Dump truck",
+          "text": "(25m³)"
+        },
+        "item3": {
+          "name": "Dump truck",
+          "text": "(30m³)"
+        },
+        "slashHour": "/hour",
+        "slashDay": "/day"
+      }
+    },
+    "materials": {
+  "block1": {
+    "title": "Construction Sand",
+    "subtitle": "Quarry and river sand of all fractions. Ideal for concrete work, bricklaying, and foundation backfilling."
+  },
+  "block2": {
+    "title": "Crushed Stone",
+    "subtitle": "High-strength crushed stone of various fractions for foundation pouring, road works, and concrete production. Resistant to frost and loads."
+  },
+  "block3": {
+    "title": "Asphalt Millings",
+    "subtitle": "Recycled material from processed asphalt. Ideal for paving country roads, garage cooperatives, and parking lots. Moisture resistant."
+  },
+  "block4": {
+    "title": "Black Earth",
+    "subtitle": "Humus-rich soil for landscaping, gardens, and orchards. Cleaned of weeds and stones. Ensures ideal plant growth."
+  },
+  "button": "Learn more" 
+}
+},
+"errors": {
+    "title": "Page not found",
+    "subtitle": "Go to the homepage or contact us.",
+    "button": "Go home"
+  },
+"footer": {
+  "policy": "Privacy Policy © Spec-Trans, 2026",
+  "rent": "Equipment rental",
+  "materials": "Materials",
+  "phone": "+420 606 110 110"
+}
+}
+

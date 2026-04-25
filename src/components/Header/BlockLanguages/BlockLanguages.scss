@@ -1,0 +1,49 @@
+@use "../../../base/mixins" as *;
+@use "../../../base/variables" as *;
+
+.lang_container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.lang_current {
+    padding: 10px 20px;
+    border: none;
+    background-color: $color_primary;
+    color: $color-white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.lang_list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #dfdfdf;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-height: 100px;
+    width: 100%;
+}
+
+.lang_list li button {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 10px 0;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+    background-color: #c5c5c5;
+}
+}
+
+.lang_container:hover .lang_list {
+    display: block;
+}

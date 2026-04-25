@@ -1,0 +1,177 @@
+{
+  "header": {
+    "nav": {
+      "home": "Domů",
+      "rent": "Pronájem",
+      "materials": "Materiály",
+      "about": "O nás",
+      "contacts": "Kontakty"
+    },
+    "button": "Objednat hovor",
+    "mobileMenu": {
+      "button": "Objednat hovor",
+      "policy": "Zásady ochrany osobních údajů © Spec-Trans, 2026"
+    }
+  },
+
+  "hero": {
+    "title": "Prodej a dodávka sypkých materiálů",
+    "subtitle": "U nás si můžete objednat materiály prémiové kvality. Individuální přístup a kvalitní produkty jsou hlavními výhodami naší společnosti.",
+    "button": "Objednat hovor"
+  },
+
+  "main": {
+    "whyus": {
+      "title": "Proč si vybrat nás",
+      "block1": "Působíme na trhu od roku <span class='green_color'>2000</span>",
+      "block2": "Více než <span class='green_color'>5 000</span> spokojených zákazníků",
+      "block3": "Nejlepší ceny",
+      "block4": "Kvalitní produkty",
+      "block5": "Rychlé vyřízení"
+    },
+
+    "equipment": {
+      "title": "Pronájem techniky",
+      "subtitle": "Disponujeme vlastním parkem moderní stavební techniky v Praze. Nabízíme spolehlivá řešení pro zemní práce, dopravu materiálů a přípravu staveb. Pracujeme rychle a za dostupné ceny.",
+      "button1": "Objednat hovor",
+      "button2": "Více informací"
+    },
+
+    "materials": {
+      "title": "Hlavní materiály",
+      "card1": "Písek",
+      "card2": "Štěrk",
+      "card3": "Asfaltová drť",
+      "card4": "Ornice"
+    },
+
+    "about": {
+      "title": "O společnosti SPEC-TRANS",
+      "subtitle": "Naše společnost působí na trhu již mnoho let a vybudovala si pověst spolehlivého a odpovědného partnera. Mezi naše klienty patří i velké organizace. Zároveň nabízíme individuální přístup jak firmám, tak i soukromým osobám.",
+      "textOnBlock1": "Jednotek techniky",
+      "textOnBlock2": "Lomů"
+    },
+
+    "questions": {
+      "title": "Máte dotazy?",
+      "subtitle": "Objednejte si zpětný hovor a zjistěte více o našich službách!",
+      "text": "Zanechte žádost a náš manažer vám zavolá do 10 minut",
+      "button": "Objednat hovor",
+      "namePlaceholder": "Jméno",
+      "phonePlaceholder": "Telefon",
+      "commentPlacholder": "Zpráva",
+      "agreeText": "Souhlasím se zpracováním osobních údajů",
+      "successText": "Odesláno",
+
+      "form": {
+        "name": {
+          "error1": "Vyplňte pole",
+          "error2": "Minimálně 3 znaky"
+        },
+        "tel": {
+          "error1": "Vyplňte pole",
+          "error2": "Telefon musí začínat znakem +",
+          "error3": "Neplatná délka čísla",
+          "error4": "Pouze číslice"
+        },
+        "com": {
+          "error1": "Vyplňte pole"
+        },
+        "agree": {
+          "error1": "Zaškrtněte políčko"
+        }
+      }
+    },
+
+    "delivery": {
+      "title": "Doprava",
+      "subtitle": "Zajišťujeme rychlou dodávku stavebních materiálů a techniky po celé Praze a okolí. Váš náklad dorazí včas a v naprostém pořádku.",
+      "item1": "Zanecháte objednávku přes web nebo telefonicky",
+      "item2": "Připravíme přesnou cenovou nabídku",
+      "item3": "Dodáme objednaný materiál přesně včas",
+      "item4": "Zajišťujeme správnou dokumentaci",
+      "addressTitle": "Praha",
+      "addressSubtitle": "Za Stodola 20, 251 01 Modletice",
+      "phoneTitle": "+420 606 110 110",
+      "phoneSubtitle": "Ve všední dny od 07:00 do 17:00",
+      "button": "Oblast dopravy",
+      "shortButton": "Oblast"
+    }
+  },
+  "pages": {
+  "rent": {
+    "special": {
+      "title": "Pronájem stavební mechanizace",
+      "subtitle": "Nabízíme dostupné podmínky pronájmu různé techniky denně i dlouhodobě.",
+      "item1": {
+        "name": "Minirypadlo",
+        "text": "(do 5t)",
+        "priceHour": "850 Kč",
+        "priceDay": "6 000 Kč"
+      },
+      "item2": {
+        "name": "Rypadlo-nakladač JCB",
+        "text": "(do 12t)",
+        "priceHour": "1 100 Kč",
+        "priceDay": "8 000 Kč"
+      },
+      "item3": {
+        "name": "Pásové rypadlo",
+        "text": "(do 22t)",
+        "priceHour": "1 500 Kč",
+        "priceDay": "11 000 Kč"
+      },
+      "slashHour": "/hod",
+      "slashDay": "/den"
+    },
+    "trucks": {
+      "title": "Pronájem sklápěčů",
+      "subtitle": "Nabízíme dostupné podmínky pronájmu různé techniky denně i dlouhodobě.",
+      "item1": {
+        "name": "Sklápěč",
+        "text": "(20m³)"
+      },
+      "item2": {
+        "name": "Sklápěč",
+        "text": "(25m³)"
+      },
+      "item3": {
+        "name": "Sklápěč",
+        "text": "(30m³)"
+      },
+      "slashHour": "hod",
+      "slashDay": "/den"
+    }
+  },
+  "materials": {
+  "block1": {
+    "title": "Stavební písek",
+    "subtitle": "Lomový a říční písek všech frakcí. Ideální pro betonářské práce, zdění a zasypávání základů."
+  },
+  "block2": {
+    "title": "Drcené kamenivo",
+    "subtitle": "Vysokopevnostní drcené kamenivo různých frakcí pro zalévání základů, silniční práce a výrobu betonu. Odolné vůči mrazu a zatížení."
+  },
+  "block3": {
+    "title": "Asfaltový recyklát",
+    "subtitle": "Recyklovaný materiál ze zpracovaného asfaltu. Ideální pro zpevnění polních cest, garážových družstev a parkovišť. Odolný vůči vlhkosti."
+  },
+  "block4": {
+    "title": "Černozem",
+    "subtitle": "Půda bohatá na humus pro terénní úpravy, zahrady a sady. Vyčištěno od plevele a kamenů. Zajišťuje ideální růst rostlin."
+  },
+  "button": "Více informací"
+}
+  },
+  "errors": {
+    "title": "Stránka nenalezena",
+    "subtitle": "Přejděte na hlavní stránku nebo nás kontaktujte.",
+    "button": "Domů"
+},
+"footer": {
+  "policy": "Zásady ochrany osobních údajů © Spec-Trans, 2026",
+  "rent": "Pronájem techniky",
+  "materials": "Materiály",
+  "phone": "+420 606 110 110"
+}
+}
