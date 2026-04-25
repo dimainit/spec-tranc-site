@@ -9,7 +9,7 @@ export const Rent = () => {
   return /* html */ `
     <section id="rent" class="rent">
     <div class="rent_container">
-    <div class="rent_block">
+    <div class="rent_block one">
     <img class="img_rent" src=${special} alt="Rental of special equipment"
     data-aos="fade-right" 
     data-aos-duration="800" 
@@ -73,7 +73,7 @@ export const Rent = () => {
 
 
 
-    <div class="rent_block">
+    <div class="rent_block two">
       <img class="img_rent" src=${truck} alt="Dump truck rental" 
            data-aos="fade-right" 
            data-aos-duration="800" 

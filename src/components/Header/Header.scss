@@ -323,13 +323,29 @@ header {
 
 
 @media (min-width: 380px) and (max-width: 568px) {
-    .logo_header {
+    .logo_header, .burger_logo {
         width: 180px;
     }
+    
 }
 
 @media (max-width: 379px) {
-    .logo_header {
+    .logo_header, .burger_logo {
         width: 160px;
     }
+    .burger_nav {
+        margin-top: 10px;
+        gap: 28px;
+    }
+    .burger_nav a {
+        font-size: 18px;
+    }
+    .burger_btn {
+        width: 170px;
+        height: 60px;
+    }
+    .confidentiality_burger {
+        font-size: 12px;
+    }
+
 }

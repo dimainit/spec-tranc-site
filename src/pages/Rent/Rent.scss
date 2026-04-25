@@ -20,9 +20,13 @@
 }
 
 .rent_block {
-    display: flex;
-    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 550px 800px;
 }
+
+.rent_block.two {
+    padding-bottom: 30px;
+} 
 
 .rent_right_text {
     margin-left: 40px;

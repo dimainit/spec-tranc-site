@@ -7,22 +7,22 @@ import black_earth from "../../../../public/Img/black_earth.webp";
 const materials = [
   {
     image: sand,
-    title: t("main.materials.card1"),
+    title: "main.materials.card1",
     link: "/materials",
   },
   {
     image: stone,
-    title: t("main.materials.card2"),
+    title: "main.materials.card2",
     link: "/materials",
   },
   {
     image: asphalt,
-    title: t("main.materials.card3"),
+    title: "main.materials.card3",
     link: "/materials",
   },
   {
     image: black_earth,
-    title: t("main.materials.card4"),
+    title: "main.materials.card4",
     link: "/materials",
   },
 ];
@@ -36,10 +36,10 @@ const createMaterials = () => {
         data-aos-duration="800"
         data-aos-delay="${index * 200}"
       >
-        <a href="/materials" class="materials_item">
+        <a href="/spec-tranc-site/materials" class="materials_item">
         <img class="materials_img" src="${element.image}" alt="Image Material">
         <div class="materials_overlay"></div>
-        <p class="materials_text">${element.title}</p>
+        <p class="materials_text">${t(element.title)}</p>
         </a>
         </div>
     `,

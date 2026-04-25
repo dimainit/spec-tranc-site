@@ -40,7 +40,7 @@ export const Delivery = () => {
 <div class="delivery_contacts"
 data-aos="fade-up" 
 data-aos-duration="200"
-  data-aos-delay="600">
+  data-aos-delay="150">
 <div class="delivery_adress">
 <h4 class="adress_title">
 ${t("main.delivery.addressTitle")}

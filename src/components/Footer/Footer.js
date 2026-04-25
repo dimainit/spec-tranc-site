@@ -5,15 +5,15 @@ import instagram from "../../../public/Icon/instagram.svg"
 import youtube from "../../../public/Icon/youtube.svg";
 
 const footerLinks = [
-  { name: t("footer.rent"), link: "/spec-tranc-site/rent" },
-  { name: t("footer.materials"), link: "/spec-tranc-site/materials" },
+  { name: "footer.rent", link: "/spec-tranc-site/rent" },
+  { name: "footer.materials", link: "/spec-tranc-site/materials" },
 ];
 
 const createFooterLinks = (currentPath) => {
   return footerLinks
     .map((element) => {
       const activeClass = element.link === currentPath ? "active" : "";
-      return `<a href="${element.link}" class="nav_link ${activeClass}">${element.name}</a>`;
+      return `<a href="${element.link}" class="nav_link ${activeClass}">${t(element.name)}</a>`;
     })
     .join("");
 };

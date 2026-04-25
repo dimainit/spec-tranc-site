@@ -9,23 +9,23 @@ import frame5 from "../../../../public/Icon/frame5(WhyUs).svg";
 const items = [
   {
     icon: frame1,
-    text: t("main.whyus.block1"),
+    text: "main.whyus.block1",
   },
   {
     icon: frame2,
-    text: t("main.whyus.block2"),
+    text: "main.whyus.block2",
   },
   {
     icon: frame3,
-    text: t("main.whyus.block3"),
+    text: "main.whyus.block3",
   },
   {
     icon: frame4,
-    text: t("main.whyus.block4"),
+    text: "main.whyus.block4",
   },
   {
     icon: frame5,
-    text: t("main.whyus.block5"),
+    text: "main.whyus.block5",
   },
 ];
 
@@ -37,7 +37,7 @@ const createItems = () => {
     data-aos="fade-up"
     data-aos-delay="${index * 100}">
     <img class="advantages_icon" src="${element.icon}" alt="Icon">
-    <p class="advantages_text">${element.text}</p>
+    <p class="advantages_text">${t(element.text)}</p>
     </div>
     `,
     )

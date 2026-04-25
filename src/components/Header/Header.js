@@ -4,11 +4,11 @@ import burger from "../../../public/Icon/burgerMenu.svg";
 import burgerClose from "../../../public/Icon/burgerclose.svg";
 
 const headerLinks = [
-  { name: "header.nav.home", link: "./" },
-  { name: "header.nav.rent", link: "./rent" },
-  { name: "header.nav.materials", link: "./materials" },
-  { name: "header.nav.about", link: "./about" },
-  { name: "header.nav.contacts", link: "./contacts" },
+  { name: "header.nav.home", link: "/spec-tranc-site/" },
+  { name: "header.nav.rent", link: "/spec-tranc-site/rent" },
+  { name: "header.nav.materials", link: "/spec-tranc-site/materials" },
+  { name: "header.nav.about", link: "/spec-tranc-site/about" },
+  { name: "header.nav.contacts", link: "/spec-tranc-site/contacts" },
 ];
 
 const createHeaderLinks = (currentPath) => {
@@ -46,7 +46,7 @@ export const Header = (currentPath) => {
      <div popover id="burger_menu" class="burger_menu">
      <div class="burger_window">
      <div class="burger_header">
-     <img class="burger_logo" src="${t("header.logo")}" alt="Burger Logo" />
+     <img class="burger_logo" src="/spec-tranc-site/Icon/logo_en.svg" alt="Burger Logo" />
      <button class="burger_close" popovertarget="burger_menu" popovertargetaction="hide">
      <img class="burger_close_img" src=${burgerClose} alt="Burger Close" />
      </button>
