@@ -4,18 +4,18 @@ import burger from "../../../public/Icon/burgerMenu.svg";
 import burgerClose from "../../../public/Icon/burgerclose.svg";
 
 const headerLinks = [
-  { name: t("header.nav.home"), link: "./" },
-  { name: t("header.nav.rent"), link: "./rent" },
-  { name: t("header.nav.materials"), link: "./materials" },
-  { name: t("header.nav.about"), link: "./about" },
-  { name: t("header.nav.contacts"), link: "./contacts" },
+  { name: "header.nav.home", link: "./" },
+  { name: "header.nav.rent", link: "./rent" },
+  { name: "header.nav.materials", link: "./materials" },
+  { name: "header.nav.about", link: "./about" },
+  { name: "header.nav.contacts", link: "./contacts" },
 ];
 
 const createHeaderLinks = (currentPath) => {
   return headerLinks
     .map((element) => {
       const activeClass = element.link === currentPath ? "active" : "";
-      return `<a href="${element.link}" class="nav_link ${activeClass}">${element.name}</a>`;
+      return `<a href="${element.link}" class="nav_link ${activeClass}">${t(element.name)}</a>`;
     })
     .join("");
 };
