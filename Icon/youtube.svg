@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <mask id="cut-yt" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <rect width="24" height="24" fill="black"/>
+      <circle cx="12" cy="12" r="11" fill="white"/>
+      <rect x="6.2" y="8.1" width="11.6" height="7.8" rx="2.5" fill="black"/>
+      <path d="M10.4 9.95L14.9 12L10.4 14.05V9.95Z" fill="white"/>
+    </mask>
+  </defs>
+  <rect width="24" height="24" fill="white" mask="url(#cut-yt)"/>
+</svg>
